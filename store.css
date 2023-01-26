@@ -1,0 +1,163 @@
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        color: black;
+ font-weight: 500;
+ transition: all 1s;
+    }
+    body{
+       
+      
+        height: 100vh;
+    }
+    .container{
+        max-width: 100vw;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .logo span{
+        color: rgb(255, 178, 191);
+        font-size: 3rem;
+       
+    }
+    .navsection{
+        margin-top: 30px;
+    }
+    .navsection nav{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+
+  cursor: pointer;
+    }
+    li{
+        list-style: none;
+       border: 2px solid black;
+         padding: 10px 40px ;
+         border-radius: 5px;
+       
+    }
+    li:hover{
+        background-color: rgb(255, 115, 138);
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .inputall{
+        margin: 40px 0;
+        display: flex;
+justify-content: center;
+    }
+    .inputall i {
+        font-size: 1.3rem;
+        background-color: rgb(255, 35, 72);
+   padding: 5px 15px;
+   border-radius: 0 0 0 5px;
+       
+    }
+    .inputall input{
+      max-width: 400px;
+      width: 100%;
+      height: 35px;
+      padding: 10px 15px;
+    }
+.cakecontainer{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 50px;
+}
+.chocolatecontainer{
+    margin-top: 20px;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: 50px;
+}
+.chocolate{
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    background-color: #b881;
+    border-radius: 5px;
+}
+.chocolate .content{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+    border-radius: 5px;
+}
+.chocolate .content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.cake{
+
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    background-color: #b881;
+    border-radius: 5px;
+}
+.cake .content{
+    width: 100%;
+    height: 80%;
+    background-color: red;
+    border-radius: 5px;
+}
+.cake .content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.cakename {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 1s;
+    
+}
+.chocolatename{
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.chocolatename p {
+
+    font-size: 1.5rem;
+}
+.chocolatename:hover,p:hover{
+    background-color:rgb(255, 35, 72) ;
+    color: white;
+ 
+}
+.cakename p {
+
+    font-size: 1.5rem;
+}
+.cakename:hover,p:hover{
+    background-color:rgb(255, 35, 72) ;
+    color: white;
+ 
+}
+@media(max-width:375px){
+    .navsection nav{
+        flex-direction: column;
+    }
+}
